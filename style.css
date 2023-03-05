@@ -1,0 +1,154 @@
+body {
+    background-color: #00704A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    min-height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    padding-left: 40px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding: 15px;
+    margin: 0;
+}
+
+.signature {
+    padding-top: 7px;
+}
+
+li {
+    padding: 10px;
+    list-style-type: none;
+    margin: 0;
+    transition: all .4s ease-in-out;
+}
+
+li:hover{
+    transform: scale(1.05);
+}
+
+sup {
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited, a:link:active, a:link:active{
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.top-div {
+    min-height: 80vh;
+    background-color: whitesmoke;
+}
+
+.bot-div{
+    min-height: 93vh;
+}
+
+span {
+    font-weight: 900;
+}
+
+.top-div-content {
+    font-weight: 600;
+    height: 80vh;
+    font-size: 50px;
+    color: #1e3932;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.top-div-content .green-star{
+    color: #006241;
+}
+
+.top-div-content .main-drink{
+    width: 350px;
+    height: 550px;
+    padding-left: 120px;
+    transition: all .25s ease-in-out;
+}
+
+.top-div-content .main-drink:hover {
+    transform: scale(1.1);
+}
+
+.bot-div-menu {
+    height: 93vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+    transition: background-color 1.5s;
+}
+
+.bot-div-menu .menu3 {
+    border: 4px solid whitesmoke;
+    border-radius: 50px;
+    width: 700px;
+    height: 500px;
+}
+
+.bot-div-menu .goth {
+    color: black;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-size: 40px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 750; 
+    font-style: italic;
+    line-height: 60px;
+}
+
+.bot-div-menu .goth .bot-p {
+    color: whitesmoke;
+}
+
+.bot-div-menu:hover{
+    background-color: chocolate;
+}
+
+footer {
+    min-height: 7vh;
+}
+
+footer .foot-note {
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: white;
+    color: #c3c3c3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+footer .foot-note sup {
+    padding-bottom: 10px;
+}
